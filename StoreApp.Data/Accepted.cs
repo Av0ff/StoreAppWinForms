@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StoreApp.Data
 {
-	public class Accepted : IStatusesClass
+	public class Accepted
 	{
 		public Guid Id { get; set; }
 		public string Name { get; set; }

@@ -22,6 +22,7 @@ namespace StoreApp
 		protected override void OnLoad(EventArgs e)
 		{
 			base.OnLoad(e);
+			dropStatus.Items.Clear();
 			var statusRepo = new StatusRepo();
 			var items = statusRepo.ReadAll();
 			foreach (var item in items)

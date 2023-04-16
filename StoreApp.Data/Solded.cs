@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StoreApp.Data
 {
-	public class Solded : IStatusesClass
+	public class Solded
 	{
 		public Guid Id { get; set; }
 		public string Name { get; set; }

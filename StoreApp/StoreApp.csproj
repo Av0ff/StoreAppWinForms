@@ -13,17 +13,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="App.config">
+    <Content Include="Properties\App.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\StoreApp.Persistence\StoreApp.Persistence.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Properties\" />
   </ItemGroup>
 
 </Project>

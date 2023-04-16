@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace StoreApp.Persistence.Repositories
 {
-	public class AcceptedRepo: IRepo<Accepted>
+	public class AcceptedRepo
 	{
 		public void Create(ProductViewModel model)
 		{

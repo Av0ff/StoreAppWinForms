@@ -42,8 +42,8 @@ namespace StoreApp.Persistence
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
 			base.OnConfiguring(optionsBuilder);
-			var connectionString = ConfigurationManager.ConnectionStrings["MSSQL"].ConnectionString;
-			optionsBuilder.UseSqlServer(connectionString);
+			//var connectionString = ConfigurationManager.ConnectionStrings["MSSQL"].ConnectionString;
+			//optionsBuilder.UseSqlServer(connectionString);
 		}
 
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
